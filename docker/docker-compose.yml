@@ -1,0 +1,9 @@
+# Run MVApp 2.0 locally at http://localhost:3838
+#   docker compose -f docker/docker-compose.yml up --build
+services:
+  mvapp2:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "3838:3838"

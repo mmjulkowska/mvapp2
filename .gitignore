@@ -1,0 +1,21 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# renv (keep renv.lock + renv/activate.R; ignore the local library)
+renv/library/
+renv/staging/
+renv/python/
+
+# package build artifacts
+mvapp.Rcheck/
+*.tar.gz
+*.tgz
+
+# OS / editor
+.DS_Store
+.vscode/
+.github/workflows/
